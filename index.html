@@ -1,0 +1,41 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Hide</title>  
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">  
+    <style>  
+        body {  
+            background-image: url('assets/images/itachi and sasuke.jpg'); /* Replace with your image URL */  
+            background-size: cover;  
+            background-position: center;  
+            position: relative;  
+            height: 100vh;  
+            margin: 0;  
+        }  
+        .overlay {  
+            position: absolute;  
+            top: 0;  
+            left: 0;  
+            right: 0;  
+            bottom: 0;  
+            background-color: rgba(0, 0, 0, 0.75); /* Adjust opacity here */  
+        }  
+        .content {  
+            position: relative;  
+            z-index: 1;  
+            color: white;  
+            text-align: center;  
+            padding: 20px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="overlay"></div>  
+    <div class="content">  
+        <h1 class="text-4xl font-bold">I Will Love You, Always.</h1>  
+        <p class="mt-4">Uchiha Itachi</p>  
+    </div>  
+</body>  
+</html>
